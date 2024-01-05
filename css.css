@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Roboto:ital,wght@0,400;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    background-position: center;
+} 
+
+nav {
+    background-color: #ffffff; 
+    text-align: center;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.nav li:hover a {
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 100px; 
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.nav img {
+    cursor: pointer;
+    vertical-align: middle; 
+    width: 140px;
+    height: 120px;
+}
+
+.texto-um{
+    display: flex;
+    margin-top: 24vh;
+    margin-left: 7vw;
+    font-size: 37px;
+}
+
+.texto-dois{
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 7vw;
+    font-size: 60px;
+}
+
+button{
+    background-color: #ffffff;
+}
+.container{
+    display: flex;
+    margin-top: 4vh;
+    margin-left: 7vw;
+    
+}
+
+.container button{
+    margin-right: 30px;
+    font-size: 23px;
+    border-radius: 7px;
+    border: 0px;
+    cursor: pointer;
+    padding: 10px;
+    transition: box-shadow 0.4s ease;
+}
+
+.container button:hover{
+    background-color: red;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.foto-mulher {
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+
+} 
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 20vw;
+    align-items: center; 
+}
+
+.text-buttons {
+    flex: 1; 
+}
+
+.foto-mulher img {
+    max-width: 100%;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    margin-top: 13vh;
+}
+
+.imagem-texto {
+    font-size: 37px;
+    margin-top: 10vh;
+    color: red;
+}
