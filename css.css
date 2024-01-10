@@ -96,10 +96,10 @@ button{
 }
 
 .foto-mulher {
-    margin-left: 20px;
+    margin-left: 58vh;
     text-align: center;
     position: relative;
-    margin-top: auto;
+    margin-top: -66vh;
 
 } 
 
@@ -124,6 +124,48 @@ button{
 
 .imagem-texto {
     font-size: 37px;
-    margin-top: 10vh;
+    margin-top: 12vh;
     color: red;
 }
+
+.menu{
+    display: block;
+}
+
+#menu-drop {
+   display: none;
+   text-align: center;
+   cursor: pointer;
+   padding: 10px;
+}
+
+#menu-drop:hover{
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+}
+
+@media (max-width: 730px){
+
+    #menu-drop {
+        display: block;
+        text-align: end;
+        cursor: pointer;
+        padding: 0px;
+    }
+
+    .nav ul img {
+        display: none;
+    }
+
+    .nav ul {
+        text-align: end;
+    }
+
+    .foto-mulher {
+        display: none;
+    }
+
+    
+     
+}
+
