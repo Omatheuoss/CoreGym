@@ -1,0 +1,1 @@
+Criação de uma Landing Page utilizando apenas HTML, CSS e JavaScript.
