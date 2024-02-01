@@ -139,8 +139,9 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    margin-bottom: 10vh;
+    margin-bottom: auto;
     height: 15vh; 
+    margin-top: 1rem;
     
 }
 
